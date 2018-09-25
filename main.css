@@ -1,0 +1,36 @@
+body {
+    background: lightgray;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Century Gothic";
+    color: olive ;
+}
+
+.nav-link {
+    color: purple
+}
+
+.statement {
+    margin-top: 30px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.descriptions {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button {
+    color: olive;
+    padding: 5px;
+}
