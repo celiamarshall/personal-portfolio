@@ -1,36 +1,46 @@
 body {
     background: lightgray;
+    font-family: "Century Gothic";
+}
+
+.row {
+    padding-top: 30px;
 }
 
 h1 {
     padding-top: 20px;
     text-align: center;
-    font-family: "Century Gothic";
-    color: olive ;
+    color: olive;
+}
+
+h2 {
+    color: olive;
 }
 
 .nav-link {
-    color: purple
+    color: #461577
 }
 
 .statement {
-    margin-top: 30px;
-    font-family: "Century Gothic";
+    margin-top: 120px;
     font-size: 20px;
 }
 
-.descriptions {
-    text-align: center;
+.portrait {
+    border-radius: 50%;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-button {
+.btn-outline {
     color: olive;
-    padding: 5px;
 }
+
+.macalester-link {
+    padding-top: 20px;
+}
+
+
