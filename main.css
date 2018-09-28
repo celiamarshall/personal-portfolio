@@ -32,17 +32,8 @@ h2 {
     border-radius: 50%;
 }
 
-.card-row {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .btn-outline {
     color: olive;
-}
-
-.macalester-link {
-    padding-top: 20px;
 }
 
 .mps-title {
@@ -54,6 +45,8 @@ h2 {
         margin-top: 20px;
         margin-left: 220px;
     }
+
+
 }
 
 

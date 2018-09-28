@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
-<body>
+<body class="container-fluid">
     <div class="row">
         <h1 class="col-md-4">Celia Marshall</h1>
         <ul class="nav nav-tabs justify-content-end col-8">
@@ -26,62 +26,79 @@
             </li>
         </ul>
     </div>
-    <div class="row">
-        <div class="col-md-1"></div>
-            <img class="portrait img-fluid" src="portrait.jpeg">
-            <p class="statement">Full Stack Web Developer. Teacher turned Engineer. Galvanize graduate. </p>
-            <div class="col-md-2"></div>
+
+    <div class="row offset-md-1">
+        <img class="portrait img-fluid" src="portrait.jpeg">
+        <p class="statement">Full Stack Web Developer. Teacher turned Engineer. Galvanize graduate. </p>
+    </div>
+    
+    <div class="row offset-md-1">
+        <h2 class="experience">Experience</h2>
+    </div>
+
+    <div class="row align-items-stretch">
+        <div class="col-xl-2 col-lg-12 offset-xl-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Galvanize</h5>
+                    <br>
+                    <h6 class="card-subtitle mb-2 text-muted">Web Development Immersive Program</h6>
+                    <p class="card-text">Studied full stack development in a six month, immersive program.</p>
+                    <br>
+                    <a href="https://www.galvanize.com/seattle/web-development" class="card-link" target="_blank">
+                        <img src="galvanize.svg" height="50px">
+                    </a>
+                </div>
+            </div>
+        </div>
+         
+        <div class="col-xl-2 col-lg-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Coursera</h5>
+                    <br>
+                    <h6 class="card-subtitle mb-2 text-muted">Python for Everybody Specialization</h6>
+                    <p class="card-text">Learned programming fundamentals and basic Python and SQL.</p>
+                    <br>
+                    <br>
+                    <a href="https://www.coursera.org/specializations/python" class="card-link" target="_blank">
+                        <img src="coursera.png" height="25px">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title mps-title">Minneapolis Public Schools</h5>
+                    <br>
+                    <h6 class="card-subtitle mb-2 text-muted">Third Grade Teacher at Bancroft Elementary</h6>
+                    <p class="card-text">Guided urban students through an interactive, inclusive, and research-based education.</p>
+                    <a href="http://www.mpls.k12.mn.us/" class="card-link" target="_blank">
+                        <img src="mps.jpg" height="50px">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Macalester College</h5>
+                    <br>
+                    <h6 class="card-subtitle mb-2 text-muted">Economics and Educational Studies</h6>
+                    <p class="card-text">Achieved a dual degree in a rigorous academic environment.</p>
+                    <br>
+                    <br>
+                    <a href="https://www.macalester.edu/" class="card-link" target="_blank">
+                        <img src="macalester.png" height="50px">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <h2 class="col-md-4 experience">Experience</h2>
-    </div>
-    <div class="row card-row">
-        <div class="card galvanize" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Galvanize</h5>
-                <br>
-                <h6 class="card-subtitle mb-2 text-muted">Web Development Immersive Program</h6>
-                <p class="card-text">Studied full stack development in a six month, immersive program.</p>
-                <a href="https://www.galvanize.com/seattle/web-development" class="card-link" target="_blank">
-                    <img src="galvanize.svg" height="50px">
-                </a>
-            </div>
-        </div>
-        <div class="card coursera" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Coursera</h5>
-                <br>
-                <h6 class="card-subtitle mb-2 text-muted">Python for Everybody Specialization</h6>
-                <p class="card-text">Learned programming fundamentals and basic Python and SQL.</p>
-                <a href="https://www.coursera.org/specializations/python" class="card-link" target="_blank">
-                    <img src="coursera.png" height="25px">
-                </a>
-            </div>
-        </div>
-        <div class="card mps" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title mps-title">Minneapolis Public Schools</h5>
-                <br>
-                <h6 class="card-subtitle mb-2 text-muted">Third Grade Teacher at Bancroft Elementary</h6>
-                <p class="card-text">Guided urban students through an interactive, inclusive, and research-based education.</p>
-                <a href="http://www.mpls.k12.mn.us/" class="card-link" target="_blank">
-                    <img src="mps.jpg" height="50px">
-                </a>
-            </div>
-        </div>
-        <div class="card macalester" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Macalester College</h5>
-                <br>
-                <h6 class="card-subtitle mb-2 text-muted">Economics and Educational Studies</h6>
-                <p class="card-text">Achieved a dual degree in a rigorous academic environment.</p>
-                <a href="https://www.macalester.edu/" class="card-link macalester-link" target="_blank">
-                    <img src="macalester.png" height="50px">
-                </a>
-            </div>
-        </div>
-    </div>
+
     <div class="row">
         <div class="col-md-1"></div>
         <a class="col-md-1" href="https://github.com/celiamarshall" target="_blank">
@@ -93,7 +110,6 @@
         <a class="col-md-1" href="mailto:celia.m@gmail.com">
             <input type="button" class="btn btn-outline" value="Email Me">
         </a>
-        <div class="col-md-8"></div>
     </div>
     
 </body>
