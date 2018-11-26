@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module '/Users/Celia/Documents/Galvanize/personal-portfolio/main.js' from '/Users/Celia/Documents/Galvanize/personal-portfolio'");
